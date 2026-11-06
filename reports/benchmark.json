@@ -1,0 +1,35 @@
+{
+  "dataset": "sklearn.make_classification (synthetic, no personal data)",
+  "seed": 42,
+  "samples": 2400,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "sklearn": "1.8.0"
+  },
+  "data_sha256": "cb3f0d5190930b30d30937274d009def76e20aa7d2cff1e0559e862ba65335a9",
+  "split": {
+    "train": 1800,
+    "test": 600,
+    "overlap": 0,
+    "test_positive_rate": 0.20833333333333334
+  },
+  "prior_baseline": {
+    "accuracy": 0.7916666666666666,
+    "balanced_accuracy": 0.5,
+    "roc_auc": 0.5,
+    "brier_score": 0.16493086419753084
+  },
+  "logistic_regression": {
+    "accuracy": 0.8716666666666667,
+    "balanced_accuracy": 0.7303157894736843,
+    "roc_auc": 0.8302989473684209,
+    "brier_score": 0.10393648206302857
+  },
+  "noise_stress": {
+    "accuracy": 0.755,
+    "balanced_accuracy": 0.6507368421052632,
+    "roc_auc": 0.7187536842105262,
+    "brier_score": 0.1786810576715466
+  }
+}
